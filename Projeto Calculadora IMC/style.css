@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding-top: 6vw;
+    font-size: 5vw;
+    text-align: center;
+    margin-bottom: 2vw;
+}
+body{
+    background-color: #DCE6F2;
+}
+#desc{
+    text-align: center;
+}
+label{
+    font-size: 6vw;
+}
+input{
+    border: 1px solid black;
+    font-size: 5vw;
+    width: 40vw;
+    height: 7vw;
+    text-align: center;
+    margin-bottom: 1vw;
+}
+button{
+    margin-bottom: 1vw;
+    height: 9vw;
+    width: 30vw;
+    margin-left: 34%; 
+    border-radius: 8px;
+    border-color: black;
+    font-size: 4.5vw;
+}
+table{
+    margin-top: 4vw;
+    width: 70vw;
+    margin-left: 13%;  
+    border-collapse: collapse;
+    background-color: #A3AFBF;
+    border: 2px solid black;
+}
+th{
+    font-size: 5.4vw;
+}
+@media only screen and (min-width: 375px){
+    h1{
+        font-size: 8vw;
+    }
+    label{
+        font-size: 5vw;
+    }
+    input{
+        font-size: 3vw;
+        width: 40vw;
+        height: 5vw;
+        margin-bottom: 3vw;
+    }
+    button{
+        margin-bottom: 1vw;
+        height: 4vw;
+        width: 32vw;
+        margin-left: 34%; 
+        border-radius: 8px;
+        border-color: black;
+        font-size: 3vw;
+    }
+    table{
+        margin-top: 4vw;
+        width: 60vw;
+        margin-left: 20%;  
+    }
+    th{
+        font-size: 4vw;
+    }
+}
+@media only screen and (min-width: 500px){
+	table{
+        margin-top: 2vw;
+        width: 50vw;
+        margin-left: 25%;  
+    }
+	th{
+        font-size: 3vw;
+    }
+}
+@media only screen and (min-width: 680px){
+	 h1{
+        font-size: 5vw;
+    }
+    label{
+        font-size: 2.3vw;
+    }
+    input{
+        font-size: 2vw;
+        width: 24vw;
+        height: 3vw;
+        margin-bottom: 2.4vw;
+    }
+    button{
+        height: 2.3vw;
+        width: 24vw;
+        margin-left: 38%; 
+        font-size: 1.4vw;
+    }
+    table{
+        margin-top: 1vw;
+        width: 40vw;
+        margin-left: 30%;  
+    }
+    th{
+        font-size: 2vw;
+    }
+}
+@media only screen and (min-width: 1000px){
+    h1{
+        padding-top: 0%;
+        font-size: 3.8vw;
+    }
+    label{
+        font-size: 2vw;
+    }
+    input{
+        font-size: 1vw;
+        width: 17vw;
+        height: 2vw;
+        margin-bottom: 2vw;
+    }
+    button{
+        margin-bottom: 0.5vw;
+        height: 1.8vw;
+        width: 17vw;
+        margin-left: 41.5%; 
+        border-radius: 20px;
+        font-size: 1.3vw;
+    }
+    table{
+        margin-top: 2vw;
+        width: 30vw;
+        margin-left: 35%;  
+    }
+    th{
+        font-size: 1.5vw;
+    }
+}
+@media only screen and (min-width: 1500px){
+    h1{
+        font-size: 3.5vw;
+    }
+    label{
+        font-size: 2vw;
+    }
+    input{
+        font-size: 1.5vw;
+        width: 20vw;
+        height: 3vw;
+        margin-bottom: 1vw;
+    }
+    button{
+        margin-bottom: 0.5vw;
+        height: 2vw;
+        width: 20vw;
+        margin-left: 40%; 
+        border-radius: 20px;
+        font-size: 1.5vw;
+    }
+    table{
+        margin-top: 1vw;
+        width: 40vw;
+        margin-left: 30%;  
+    }
+}
+@media only screen and (min-width: 1800px){
+    h1{
+        font-size: 3vw;
+    }
+    label{
+        font-size: 1.6vw;
+    }
+    input{
+        font-size: 1.2vw;
+        width: 14vw;
+        height: 2vw;
+    }
+    button{
+        height: 1.5vw;
+        width: 10vw;
+        margin-left: 45%; 
+        font-size: 1vw;
+    }
+    table{
+        width: 30vw;
+        margin-left: 35%;  
+    }
+    th{
+        font-size: 1.2vw;
+    }
+}
